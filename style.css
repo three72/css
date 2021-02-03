@@ -157,6 +157,23 @@ header .mdl-js-button {
     left: 0;
 }
 
+.card__full-width card__full-width--image-right .card__content-wrapper {
+    padding-left: 70px;  
+}
+
+.card__full-width card__full-width--image-left .card__content-wrapper {
+    padding-left: 200px;
+    padding-right: 70px !important;
+}
+
+.share-your-bluestonelife .section-title {
+    display: none;
+}
+
+.share-your-bluestonelife .slick-slide {
+    width: 345px !important   
+}
+
 @media screen and (min-width: 1025px) {
     .card {
         width: 275px;
