@@ -2,7 +2,6 @@ $(document).ready(function() {
     $("head").prepend('<script src="/-/media/peet/General Images/SA/Bluestone/assets/parallaxmin.js"></script>');
     $("head").prepend('<script src="/-/media/plugins/slickmin.js"></script>');
     $("head").prepend('<link href="/-/media/plugins/slick.css" rel="stylesheet" />');
-    $("head").prepend('<link href="https://cdn.jsdelivr.net/gh/three72/css@340accce595a0caa3829195ccfe77c3ce2263d4a/style.css" rel="stylesheet" />');
    setTimeout(function(){ 
        $('.card__full-width.card__full-width--image-right .card__image-wrapper').parallax({imageSrc: '/-/media/peet/update-images/sa/lightsview/lightsview-updates-grant-masonryv2/lightsview-updates-grant-masonryv2021.ashx'}); 
           $(".container-4-columns").slick({
