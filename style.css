@@ -167,11 +167,109 @@ header .mdl-js-button {
 }
 
 .share-your-bluestonelife .section-title {
-    display: none;
+    display: none !important;
 }
 
 .share-your-bluestonelife .slick-slide {
-    width: 345px !important   
+    width: 345px !important;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.slick-slider {
+    height: auto !important; 
+    transform: translateX(270px);
+}
+
+.section.share-your-bluestonelife .container {
+    position: relative;   
+}
+
+.section.share-your-bluestonelife img.card-avatar {
+    display: none;    
+}
+
+.section.share-your-bluestonelife .container:before {
+    content: "Love it, snap it, post it!";
+    position: absolute;
+    top: 0;
+    left: 30px;
+    display: block;
+    width: 170px;
+    font-size: 40px;
+    font-family: "Libre Baskerville";
+    line-height: 55px;
+    font-style: italic;
+    color: #425764;
+}
+
+.section.share-your-bluestonelife .container:after {
+    content: "Share your #bluestonelife";
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    display: block;
+    width: 170px;
+    font-size: 14px;
+    font-family: "Libre Baskerville";
+    line-height: 21px;
+    color: #221F20;
+}
+
+.section.share-your-bluestonelife .card-caption {
+    margin-top: 0;    
+}
+
+.section.share-your-bluestonelife .card-attribution {
+    font-family: "Libre Baskerville";
+    font-size: 14px;
+    color: #221F20;
+}
+
+.section.share-your-bluestonelife .card-caption h4 {
+    font-family: "Libre Baskerville";
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.section.share-your-bluestonelife .card-caption p {
+    font-family: "Libre Baskerville";
+    font-size: 14px;
+    line-height: 24px;
+    color: #221F20;
+}
+
+.section.share-your-bluestonelife .card-content {
+    padding: 15px 15px 0 0;    
+}
+
+.slick-dots {
+    width: calc(100% - 280px);
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.slick-dots li button {
+    outline: 0px;
+    background-color: #EFEFEF;
+    height: 5px;    
+}
+
+.slick-dots li.slick-active button {
+    background-color: #425764;
+}
+
+.section.share-your-bluestonelife .cards-more {
+    display: none !important;    
+}
+
+@media screen and (min-width: 1280px) {
+    .card-4-columns {
+        width: 375px !important;
+    }
 }
 
 @media screen and (min-width: 1025px) {
