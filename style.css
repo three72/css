@@ -255,7 +255,8 @@ header .mdl-js-button {
 .slick-dots li button {
     outline: 0px;
     background-color: #EFEFEF;
-    height: 5px;    
+    height: 5px;  
+    border: none;
 }
 
 .slick-dots li.slick-active button {
@@ -265,6 +266,67 @@ header .mdl-js-button {
 .section.share-your-bluestonelife .cards-more {
     display: none !important;    
 }
+
+.section.updates-offers {
+    background-color: #CCC;
+    padding: 50px 0;    
+}
+
+.section.updates-offers .section-title {
+    text-align: center;
+    font-family: "Libre Baskerville";
+    font-style: italic;   
+    text-transform: none;
+}
+
+.section.updates-offers .card-container .card {
+    width: calc(100% / 3 - 30px);
+    border-radius: 0px;
+}
+
+.section.updates-offers .card-container .card .card-content {
+    background: transparent;
+    padding: 30px;
+}
+
+.section.updates-offers .card-container .card:nth-child(3n - 1) .card-image-wrapper {
+    height: 370px;
+}
+
+.section.updates-offers .card-container .card .card-content .card-caption {
+    padding-top: 0;
+}
+
+.section.updates-offers .card-container .card .card-content .card-caption h4 {
+    font-family: "Open Sans";
+    color: #425764;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.section.updates-offers .card-container .card .card-content .card-caption h6 {
+    font-family: "Open Sans";
+    color: #000;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-transform: none;
+}
+
+.section.updates-offers .card-container .card .card-content .card-caption p {
+    font-family: "Libre Baskerville";
+    color: #221F20;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-transform: none;
+}
+
+
 
 @media screen and (min-width: 1280px) {
     .card-4-columns {
