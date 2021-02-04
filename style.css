@@ -174,7 +174,7 @@ header .mdl-js-button {
     width: 345px !important;
     box-shadow: none;
     border-radius: 0px;
-    position: relative !important;
+    position: static !important;
 }
 
 .slick-slider {
@@ -359,6 +359,107 @@ header .mdl-js-button {
     padding-right: 0;
 }
 
+.subscribe-wrapper  {
+    background-size: 735px 100%;
+    background-repeat: no-repeat;
+    background-position: center right 180px;
+    margin-top: 80px;
+    background-color: #FFF;
+}
+
+.subscribe-wrapper .form {
+    width: 39%;
+    margin: 0;   
+    padding-left: 15px;
+    
+}
+
+.subscribe-wrapper .form h2 {
+    text-align: left;
+    text-transform: none;
+    padding-left: 15px;
+    font-family: "Libre Baskerville";
+    font-size: 40px;
+    font-style: italic;
+    color: #425764;
+    margin-bottom: 20px;
+}
+
+.subscribe-wrapper .form .form_description {
+    text-align: left;
+    text-transform: none;
+    padding-left: 15px;
+    font-family: "Libre Baskerville";
+    font-size: 14px;
+    font-style: initial;
+    color: #3d3a3b;
+    margin-bottom: 20px;        
+}
+
+.subscribe-wrapper .form .fieldset {
+    padding: 0;
+}
+
+.subscribe-wrapper .form .fieldset input.form__control {
+    border-radius: 0px;
+    outline: 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #727485;
+    font-family: "Open Sans";
+    color: #000;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+.subscribe-wrapper .form .fieldset button {
+    background: none;
+    color: #3d3a3b;
+    padding: 0;
+    text-align: left;
+    font-family: "Open Sans";
+    text-transform: none;
+    font-size: 18px;
+    box-shadow: none;
+    outline: 0px;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+    height: 40px;
+    width: auto;
+}
+
+.subscribe-wrapper .form .fieldset button:hover {
+    background: none;
+    color: #3d3a3b;
+    padding: 0;
+    text-align: left;
+    font-family: "Open Sans";
+    text-transform: none;
+    font-size: 18px;
+    border-bottom: 1px solid transparent;
+}
+
+.subscribe-wrapper .form .fieldset input.form__control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+    opacity: 1;
+}
+.subscribe-wrapper .form .fieldset input.form__control::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+        opacity: 1;
+}
+.subscribe-wrapper .form .fieldset input.form__control:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+        opacity: 1;
+}
+.subscribe-wrapper .form .fieldset input.form__control:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+        opacity: 1;
+}
+
+.subscribe-wrapper .form .fieldset input.form__control:placeholder {
+  color: #000;
+}
+
 @media screen and (min-width: 1280px) {
     .card-4-columns {
         width: 375px !important;
@@ -369,6 +470,12 @@ header .mdl-js-button {
     .section:not(.updates-offers) .container-3-columns .card {
         width: 275px;
         position: static !important;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .subscribe-form .form__control-group--text {
+        width: 100%;
     }
 }
 
