@@ -9,8 +9,8 @@ $(document).ready(function() {
             allCards.each(function(i,e) {
                 var backgroundImage = $(this).css("backgroundImage");
                console.log(backgroundImage);
-               $(this).data("parallax", "scroll"); 
-               $(this).data("image-src", backgroundImage); 
+               $(this).attr("data-parallax", "scroll"); 
+               $(this).attr("data-image-src", backgroundImage); 
             });
        
           $(".container-4-columns").slick({
