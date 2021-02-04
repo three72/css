@@ -3,7 +3,15 @@ $(document).ready(function() {
     $("head").prepend('<script src="/-/media/plugins/slickmin.js"></script>');
     $("head").prepend('<link href="/-/media/plugins/slick.css" rel="stylesheet" />');
    setTimeout(function(){ 
-       $('.card__full-width.card__full-width--image-right .card__image-wrapper').parallax({imageSrc: '/-/media/peet/update-images/sa/lightsview/lightsview-updates-grant-masonryv2/lightsview-updates-grant-masonryv2021.ashx'}); 
+        var allCards = $(".card__full-width .card__image-wrapper");
+    
+            allCards.each(function(i,e) {
+                var backgroundImage = $(this).css("backgroundImage");
+               console.log(backgroundImage);
+               $(this).data("parallax", "scroll"); 
+               $(this).data("image-src", backgroundImage); 
+            });
+       
           $(".container-4-columns").slick({
                 dots: true,
                 slidesToShow: 3,
