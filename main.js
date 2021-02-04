@@ -8,8 +8,8 @@ $(document).ready(function() {
             allCards.each(function(i,e) {
                 var backgroundImage = $(this).css("backgroundImage");
                console.log(backgroundImage);
-               $(this).data("parallax", "scroll"); 
-               $(this).data("image-src", backgroundImage); 
+               $(this).data("data-parallax", "scroll"); 
+               $(this).data("data-image-src", backgroundImage); 
             });
        
           $(".container-4-columns").slick({
