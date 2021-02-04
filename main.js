@@ -10,8 +10,13 @@ $(document).ready(function() {
                 var backgroundImage = $(this).css("backgroundImage");
                 backgroundImage = backgroundImage.replace('url(','').replace(')','').replace(/\"/gi, "");
                console.log(backgroundImage);
-               $(this).attr("data-parallax", "scroll"); 
-               $(this).attr("data-image-src", backgroundImage); 
+                $(this).parallax({
+                    imageSrc: backgroundImage,
+                    zIndex: 999,
+                    speed: 0.0,
+                });
+//                $(this).attr("data-parallax", "scroll"); 
+//                $(this).attr("data-image-src", backgroundImage); 
             });
        
           $(".container-4-columns").slick({
