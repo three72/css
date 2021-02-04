@@ -326,7 +326,7 @@ header .mdl-js-button {
     text-transform: none;
 }
 
-.section.updates-offers .card-container .card .card-content .card-caption a {
+.section.updates-offers .card-container .card .card-content a.card-cta {
     color: #2b2829;
     background-color: transparent;
     border-radius: 0px;
@@ -342,14 +342,10 @@ header .mdl-js-button {
     padding-right: 30px;
 }
 
-.section.updates-offers .card-container .card .card-content .card-caption a:hover {
+.section.updates-offers .card-container .card .card-content a.card-cta:hover {
     border-bottom: 1px solid transparent;
     text-decoration: none;
     color: #2b2829;
-}
-
-.mdl-js .section.updates-offers .card-container .card {
-    position: relative !important;    
 }
 
 .section.updates-offers .card-share {
