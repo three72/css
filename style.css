@@ -326,7 +326,41 @@ header .mdl-js-button {
     text-transform: none;
 }
 
+.section.updates-offers .card-container .card .card-content .card-caption a {
+    color: #2b2829;
+    background-color: transparent;
+    border-radius: 0px;
+    transition: all 0.3s ease-in-out;
+    text-transform: none !important;
+    font-size: 15px;
+    display: inline-block;
+    font-style: inherit;
+    font-family: "Open Sans";
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+    line-height: 25px;
+    padding-right: 30px;
+}
 
+.section.updates-offers .card-container .card .card-content .card-caption a:hover {
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    color: #2b2829;
+}
+
+.mdl-js .section.updates-offers .card-container .card {
+    position: relative !important;    
+}
+
+.section.updates-offers .card-share {
+    bottom: auto;
+    top: 15px;    
+}
+
+.section.updates-offers .card-share a {
+    display: inline-block; 
+    padding-right: 0;
+}
 
 @media screen and (min-width: 1280px) {
     .card-4-columns {
