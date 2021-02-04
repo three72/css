@@ -2,6 +2,7 @@ $(document).ready(function() {
     $("head").prepend('<script src="/-/media/peet/General Images/SA/Bluestone/assets/parallaxmin.js"></script>');
     $("head").prepend('<script src="/-/media/plugins/slickmin.js"></script>');
     $("head").prepend('<link href="/-/media/plugins/slick.css" rel="stylesheet" />');
+    console.log("started");
    setTimeout(function(){ 
         var allCards = $(".card__full-width .card__image-wrapper");
     
@@ -37,7 +38,8 @@ $(document).ready(function() {
             clearInterval(slickButton);
         }
     }, 1000);
-   }, 100);
+       console.log("ended");
+   }, 10000);
    
 
 });
