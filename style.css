@@ -369,7 +369,7 @@ header .mdl-js-button {
 }
 
 @media screen and (min-width: 1025px) {
-    .card {
+    .section:not(.updates-offers) .container-3-columns .card {
         width: 275px;
         position: static !important;
     }
