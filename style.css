@@ -157,11 +157,11 @@ header .mdl-js-button {
     left: 0;
 }
 
-.card__full-width card__full-width--image-right .card__content-wrapper {
+.card__full-width.card__full-width--image-right .card__content-wrapper {
     padding-left: 70px;  
 }
 
-.card__full-width card__full-width--image-left .card__content-wrapper {
+.card__full-width.card__full-width--image-left .card__content-wrapper {
     padding-left: 200px;
     padding-right: 70px !important;
 }
