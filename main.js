@@ -4,20 +4,18 @@ $(document).ready(function() {
     $("head").prepend('<link href="/-/media/plugins/slick.css" rel="stylesheet" />');
     console.log("started");
    setTimeout(function(){ 
-        var allCards = $(".card__full-width .card__image-wrapper");
+//         var allCards = $(".card__full-width .card__image-wrapper");
     
-            allCards.each(function(i,e) {
-                var backgroundImage = $(this).css("backgroundImage");
-                backgroundImage = backgroundImage.replace('url(','').replace(')','').replace(/\"/gi, "");
-               console.log(backgroundImage);
-                $(this).parallax({
-                    imageSrc: backgroundImage,
-                    zIndex: 999,
-                    speed: 0.0,
-                });
-//                $(this).attr("data-parallax", "scroll"); 
-//                $(this).attr("data-image-src", backgroundImage); 
-            });
+//             allCards.each(function(i,e) {
+//                 var backgroundImage = $(this).css("backgroundImage");
+//                 backgroundImage = backgroundImage.replace('url(','').replace(')','').replace(/\"/gi, "");
+//                console.log(backgroundImage);
+//                 $(this).parallax({
+//                     imageSrc: backgroundImage,
+//                     zIndex: 999,
+//                     speed: 0.0,
+//                 });
+//             });
        
           $(".container-4-columns").slick({
                 dots: true,
