@@ -110,6 +110,11 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
     display: block;
 }
 
+.card__full-width--image-right .card__image-wrapper,
+.card__full-width--image-left .card__image-wrapper {
+    width: 46%;    
+}
+
 .card__full-width {
     box-shadow: none;
     margin-left: -200px;
