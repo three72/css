@@ -473,7 +473,7 @@ header .mdl-layout__header-row:nth-child(2) .mdl-js-button {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
     .container.video-container .carousel-controller.carousel-controller--align-right {
         max-width: 100%;
         padding: 50px 20px;   
@@ -482,7 +482,7 @@ header .mdl-layout__header-row:nth-child(2) .mdl-js-button {
     }
     
     .container .carousel-wrapper {
-        max-height: 500px; 
+        max-height: auto; 
         max-width: 100%; 
         height: auto;  
         height: 500px;  
