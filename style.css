@@ -501,6 +501,16 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
   color: #000;
 }
 
+@media screen and (max-width: 1390px) {
+    .card__full-width.card__full-width--image-left .card__content-wrapper {
+        padding-left: 50px;    
+    }
+    
+    .card__full-width.card__full-width--image-right .card__content-wrapper {
+        padding-right: 50px !important;    
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .card-4-columns {
         width: 375px !important;
