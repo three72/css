@@ -486,7 +486,6 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
         max-height: auto; 
         max-width: 100%; 
         height: auto;  
-        height: 500px;  
         margin-bottom:0; 
         overflow: visible; 
         box-shadow: unset; 
@@ -505,7 +504,9 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
     .subscribe-form .form__control-group--text {
         width: 100%;
     }
-    
+}
+
+@media screen and (max-width: 840px) { 
     .card-container.container-3-columns .card a img {
         display: none;    
     }
@@ -519,6 +520,7 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
         background-position: center right 15px
     }
 }
+
 
 @media screen and (min-width: 480px) {
    .card-container {
