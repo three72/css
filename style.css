@@ -503,11 +503,13 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
 
 @media screen and (max-width: 1390px) {
     .card__full-width.card__full-width--image-left .card__content-wrapper {
-        padding-left: 50px;    
+        padding-left: 50px;   
+        padding-right: 20px !important;
     }
     
     .card__full-width.card__full-width--image-right .card__content-wrapper {
         padding-right: 50px !important;    
+        padding-left: 20px !important;
     }
 }
 
