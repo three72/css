@@ -572,6 +572,23 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
         margin: 0;      
         background-position: center right 15px
     }
+    
+    .card__full-width {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;    
+        margin-bottom: 0px;
+    }
+    
+    .card__full-width--image-right .card__image-wrapper, .card__full-width--image-left .card__image-wrapper {
+        width: 100%;    
+    }
+    
+    .card__full-width .card__content-wrapper {
+        min-height: auto;
+        height: auto;      
+    }
 }
 
 
