@@ -26,7 +26,7 @@
     top: 52%;
 }
 
-header .mdl-js-button {
+header .mdl-layout__header-row:nth-child(2) .mdl-js-button {
     background-color: transparent !important;
     box-shadow: none !important;
     border-radius: 0px !important;
@@ -470,6 +470,33 @@ header .mdl-js-button {
     .section:not(.updates-offers) .container-3-columns .card {
         width: 275px;
         position: static !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container.video-container .carousel-controller.carousel-controller--align-right {
+        max-width: 100%;
+        padding: 50px 20px;   
+        top: 100%;
+        bottom: auto;
+    }
+    
+    .container .carousel-wrapper {
+        max-height: 500px; 
+        max-width: 100%; 
+        height: auto;  
+        height: 500px;  
+        margin-bottom:0; 
+        overflow: visible; 
+        box-shadow: unset; 
+        border-radius: unset;
+    }
+
+    .carousel-wrapper .carousel .owl-video-frame iframe {
+        position: relative; 
+        transform:none; 
+        top:auto; 
+        height: 500px !important;
     }
 }
 
