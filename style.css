@@ -560,6 +560,32 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
 }
 
 @media screen and (max-width: 840px) { 
+    
+    .slick-slider {
+        padding-left: 20px;
+        padding-right: 20px;    
+        transform: none;
+        padding-top: 115px;
+    }
+    
+    .slick-dots {
+        margin-left: 20px;
+        width: 100%;    
+    }
+    
+    .section.share-your-bluestonelife .container:before {
+        width: 100%;
+        left: 0;    
+        font-size: 28px;
+        
+    }
+    
+    .section.share-your-bluestonelife .container:after {
+        top: 60px;
+        width: 100%;
+        left: 0;    
+    }
+    
     .card-container.container-3-columns .card a img {
         display: none;    
     }
@@ -588,6 +614,10 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
     .card__full-width .card__content-wrapper {
         min-height: auto;
         height: auto;      
+    }
+    
+    .card__full-width.card__full-width--image-left .card__content-wrapper {
+        padding-left: 20px;    
     }
 }
 
