@@ -6,6 +6,22 @@
     background-color: #425764 !important;
 }
 
+.card__full-width .card__content-wrapper h3 {
+    font-family: "Libre Baskerville";
+    font-style: italic;
+    text-transform: none;
+    font-size: 40px;
+    line-height: 50px;
+    color: #425764;    
+}
+
+.card__full-width .card__content-wrapper .card__content {
+    font-family: "Libre Baskerville";
+    font-size: 14px;
+    line-height: 25px;
+    color: #221F20;    
+}
+
 .mdl-layout__header-row .mdl-navigation__submenu-group .mdl-navigation__link {
     color: #FFF;
     text-transform: none !important;
@@ -20,6 +36,26 @@
 
 .mdl-layout__header-row+.mdl-layout__header-row .mdl-navigation .material-icons {
  color: #FFF;
+}
+
+.card__full-width .card__content-wrapper .mdl-button.mdl-button--colored {
+        background: transparent;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #000;
+    padding-left: 0;
+    font-family: "Open Sans";
+    font-size: 18px;
+    text-transform: none;
+    border-bottom: 1px solid transparent;
+    padding-right: 0;
+    line-height: 30px;
+    height: auto;    
+}
+
+.card__full-width .card__content-wrapper .mdl-button.mdl-button--colored:hover {
+        border-bottom: 1px solid;
 }
 
 .mdl-layout__header-row .mdl-navigation > .mdl-navigation__submenu-group .mdl-navigation__submenu-toggle + .material-icons {
@@ -112,7 +148,7 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
 
 .card__full-width--image-right .card__image-wrapper,
 .card__full-width--image-left .card__image-wrapper {
-    width: 46%;    
+    width: 47%;    
 }
 
 .card__full-width {
