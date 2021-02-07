@@ -642,7 +642,23 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
     
     .slick-dots {
         width: 100% !important;
+        margin-left: 0;
         
+    }
+    
+    h2.section-title,
+    .card__full-width .card__content-wrapper h3,
+    .container.video-container .carousel-controller.carousel-controller--align-right h4 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .card-container {
+        display: block !important;
+    }
+    
+    .section.updates-offers .card-container .card {
+        width: 100%;    
     }
 }
 
@@ -652,6 +668,14 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
         display: flex;
         justify-content: space-between;
     } 
+    
+    .section.share-your-bluestonelife .container:before {
+        left: 10px;
+    }
+    
+    .section.share-your-bluestonelife .container:after {
+        left: 10px;
+    }
 }
 
 
