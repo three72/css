@@ -406,6 +406,9 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
     background-position: center right 180px;
     margin-top: 80px;
     background-color: #FFF;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 80px;
 }
 
 .subscribe-wrapper .form {
@@ -510,6 +513,29 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
     .card__full-width.card__full-width--image-right .card__content-wrapper {
         padding-right: 50px !important;    
         padding-left: 20px !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .subscribe-wrapper  {
+        background-size: 890px 400px;
+        background-repeat: no-repeat;
+        background-position: top center;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 60px;
+    }  
+    
+    .subscribe-wrapper .form {
+        padding-top: 360px;    
+    }
+    
+    .subscribe-form .form__description {
+        color: #221F20;
+    }
+    
+    .subscribe-form .fieldset {
+        max-width: 100%;    
     }
 }
 
@@ -658,7 +684,7 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
     }
     
     .section.updates-offers .card-container .card {
-        width: 100%;    
+        width: calc(100% - 30px);   
     }
     
     .section.updates-offers .card-container .card:nth-child(3n - 1) .card-image-wrapper {
@@ -677,6 +703,16 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
         justify-content: space-between;
     } 
     
+    .section.share-your-bluestonelife .container:before {
+        left: 10px;
+    }
+    
+    .section.share-your-bluestonelife .container:after {
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {   
     .section.share-your-bluestonelife .container:before {
         left: 10px;
     }
