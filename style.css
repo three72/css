@@ -660,6 +660,14 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
     .section.updates-offers .card-container .card {
         width: 100%;    
     }
+    
+    .section.updates-offers .card-container .card:nth-child(3n - 1) .card-image-wrapper {
+        height: auto;    
+    }
+    
+    .section.updates-offers .card-container .card .card-image-wrapper {
+        display: block;  
+    }
 }
 
 
