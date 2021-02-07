@@ -34,7 +34,7 @@ $(document).ready(function() {
                     slidesToScroll: 1,
                   }
                 }, 
-
+                ]
             });
             
             var slideCount = $(".slick-slide").not(".slick-cloned").length;
