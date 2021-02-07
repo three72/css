@@ -665,7 +665,7 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
         height: auto;    
     }
     
-    .section.updates-offers .card-container .card .card-image-wrapper {
+    .section.updates-offers .card-container .card .card-image-wrapper img {
         display: block;  
     }
 }
