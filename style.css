@@ -619,6 +619,35 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
     .card__full-width.card__full-width--image-left .card__content-wrapper {
         padding-left: 20px;    
     }
+    
+    .section.share-your-bluestonelife .container:before {
+        top: 0;
+        width: 100%;
+        font-size: 28px;
+        left: 0;
+    }
+    
+    .section.share-your-bluestonelife .container:after {
+        top: 55px;
+        width: 100%;    
+        left: 0;
+    }
+    
+    .slick-slider {
+        transform: none;
+        padding-top: 100px;    
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .share-your-bluestonelife .slick-slide {
+        width: 100% !important;    
+    }
+    
+    .slick-dots {
+        width: 100%;
+        
+    }
 }
 
 
