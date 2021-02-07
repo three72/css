@@ -644,8 +644,9 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
         width: 100% !important;    
     }
     
-    .slick-dots {
-        width: 100%;
+    .slick-dots,
+    .slick-track {
+        width: 100% !important;
         
     }
 }
