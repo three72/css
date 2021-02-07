@@ -429,7 +429,7 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
     margin-bottom: 20px;
 }
 
-.subscribe-wrapper form .form_description {
+.subscribe-wrapper .subscribe-form .form_description {
     text-align: left;
     text-transform: none;
     padding-left: 15px;
