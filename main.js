@@ -25,7 +25,15 @@ $(document).ready(function() {
                 autoplaySpeed: 6000,
                 speed: 700,
                 arrows: false,
-                variableWidth: true
+                variableWidth: true,
+                responsive: [
+                {
+                  breakpoint: 840,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                  }
+                }, 
 
             });
             
