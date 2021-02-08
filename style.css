@@ -1,3 +1,30 @@
+.section.share-your-bluestonelife {
+padding-top: 30px;
+}
+
+.section-containers .section-container:nth-child(1) .section:nth-child(2) {
+    margin-top: 60px !important;
+    margin-bottom: -40px !important;
+}
+
+.section-containers .section-container:nth-child(3) .section:nth-child(1) {
+    margin-bottom: 30px;
+}
+
+.section-containers .section-container:nth-child(3) .section:nth-child(n + 2) {
+    background-color: rgba(66,87,100,0.1);
+}
+
+.section-containers .section-container:nth-child(3) .section:nth-child(n + 2) .card__full-width .card__content-wrapper  {
+    background-color: transparent;
+}
+
+.section-containers > div:nth-child(4) .card-content {
+display: block !important;
+}
+
+
+
 .slide-down {
 	width: 15px;
     height: 27px;
@@ -54,7 +81,8 @@
     color: #425764;    
 }
 
-.card__full-width .card__content-wrapper .card__content {
+.card__full-width .card__content-wrapper .card__content,
+.card__full-width .card__content-wrapper .card__content p {
     font-family: "Libre Baskerville";
     font-size: 14px;
     line-height: 25px;
@@ -765,5 +793,3 @@ header .mdl-layout__header-row:nth-child(2n + 1) .mdl-js-button {
         left: 10px;
     }
 }
-
-
