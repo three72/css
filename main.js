@@ -21,7 +21,7 @@ $(document).ready(function() {
        
        $(".slide-down").click(function() {
             $(window).animate({
-              scrollTop: $(window).height(),
+              scrollTop: 1500,
             }, 1000);  
        });
        
