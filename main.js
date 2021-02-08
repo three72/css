@@ -19,6 +19,13 @@ $(document).ready(function() {
        console.log($(".carousel-controller__data"));
        $(".carousel-controller").append("<div class='slide-down'></div>");
        
+       $(".slide-down").click(function() {
+            $(window).scrollTo({
+              top: $(window).height(),
+              behavior: 'smooth'
+            });  
+       });
+       
           $(".container-4-columns").slick({
                 dots: true,
                 slidesToShow: 3,
