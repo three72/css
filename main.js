@@ -20,10 +20,9 @@ $(document).ready(function() {
        $(".carousel-controller").append("<div class='slide-down'></div>");
        
        $(".slide-down").click(function() {
-            $(window).scrollTo({
-              top: $(window).height(),
-              behavior: 'smooth'
-            });  
+            $(window).animate({
+              scrollTop: $(window).height(),
+            }, 1000);  
        });
        
           $(".container-4-columns").slick({
