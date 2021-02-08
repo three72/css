@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("head").prepend('<script src="/-/media/plugins/slickmin.js"></script>');
     $("head").prepend('<link href="/-/media/plugins/slick.css" rel="stylesheet" />');
     console.log("started");
-   setTimeout(function(){ 
+    setTimeout(function(){ 
 //         var allCards = $(".card__full-width .card__image-wrapper");
     
 //             allCards.each(function(i,e) {
