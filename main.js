@@ -17,6 +17,8 @@ $(document).ready(function() {
 //                 });
 //             });
        
+       $(".carousel-controller__data").append("<div class='slide-down'></div>");
+       
           $(".container-4-columns").slick({
                 dots: true,
                 slidesToShow: 3,
