@@ -20,7 +20,7 @@ $(document).ready(function() {
        $(".carousel-controller").append("<div class='slide-down'></div>");
        
        $(".slide-down").click(function() {
-            $(window).animate({
+            $('body').animate({
               scrollTop: 1500,
             }, 1000);  
        });
